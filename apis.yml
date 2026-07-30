@@ -1,18 +1,42 @@
 aid: ai-fund
 name: AI Fund
-description: 'AI Fund is a company surfaced as a portfolio company of greylock and added to the API Evangelist
-  network as a stub for enrichment. Sector: other. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  AI Fund is a venture studio founded by Andrew Ng that co-founds and scales
+  AI-powered companies alongside entrepreneurs, venture funds, and corporate
+  partners. Backed by more than $370 million from investors including Sequoia
+  Capital, NEA, Nikkei, and AES, it validates, builds, and scales ventures that
+  tackle real-world problems across emergency response, retail, supply chain,
+  government services, and enterprise productivity. Portfolio companies include
+  Workera, Factored, Workhelix, Profitmind, and IrisGo. AI Fund was added to the
+  API Evangelist network as a portfolio company of Greylock.
 url: https://raw.githubusercontent.com/api-evangelist/ai-fund/refs/heads/main/apis.yml
 x-type: company
 x-source: greylock-portfolio
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://aifund.ai/wp-content/uploads/2025/04/cropped-aifund-favicon-01.1-192x192.png
 tags:
 - Company
-- Other
+- Venture Studio
+- Venture Capital
+- Artificial Intelligence
+- Startups
+- Investment
+- Andrew Ng
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,3 +46,30 @@ maintainers:
 common:
 - type: Website
   url: https://aifund.ai/
+- type: Blog
+  url: https://aifund.ai/insights/
+- type: Portfolio
+  url: https://aifund.ai/portfolio/
+- type: Team
+  url: https://aifund.ai/our-team/
+- type: Careers
+  url: https://aifund.ai/careers/
+- type: Support
+  url: https://aifund.ai/contact/
+- type: PrivacyPolicy
+  url: https://aifund.ai/privacy-policy/
+- type: TermsOfService
+  url: https://aifund.ai/terms-and-conditions/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/aifund/
+- type: Twitter
+  url: https://x.com/AI_Fund
+- type: YouTube
+  url: https://www.youtube.com/@AIFundVentureStudio
+- type: DomainSecurity
+  url: security/ai-fund-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
